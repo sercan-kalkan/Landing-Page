@@ -1,22 +1,27 @@
 body {
     display: flex;
     flex-direction: column;  
-    background-color: #1f2937;
+    background-color: black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: black;
     padding: 20px;
     justify-content: center;
     align-items:normal;
+    margin-top: 0px;
 }
 
 .header {
     display: flex;
     justify-content:space-around;
     align-items: center;
+}
+
+#logo {
+    height: 200px;
 }
 
 h1 {
@@ -35,9 +40,9 @@ h1 {
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     padding: 32px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -48,6 +53,7 @@ h1 {
     align-items:flex-start;
     width:400px;
     height: 150px;    
+    margin-left: 150px;
 }
 
 #hero-header {
@@ -64,7 +70,7 @@ h1 {
 }
 
 button {
-    background-color:  #3882F6;
+    background-color:  orangered;
     color:#E5E7EB;
     padding: 8px;
     width: 100px;
@@ -73,8 +79,10 @@ button {
 }
 
 img {
-    width: 450px;
-    height: 200px;
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    opacity:80%;
 }
 
 .info {
@@ -94,7 +102,7 @@ img {
 .info-image {
     width: 150px;
     height: 150px;
-    border: 3px solid #3882f6;
+    border: 3px solid orangered;
     border-radius: 15%;
 }
 
@@ -102,9 +110,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
-    gap:50px
-
-    
+    gap:50px    
 }
 
 .info-div {
@@ -154,7 +160,7 @@ blockquote {
     justify-content: center;
 }
 .box {
-    background-color: #3882F6;
+    background-color: black;
     width: 50%;
     height: 150px;
     margin-top: 100px;
@@ -163,6 +169,8 @@ blockquote {
     justify-content: space-around;
     align-items: center;
     color: white;
+    border: 2px solid orangered;
+    border-radius: 30px;
 }
 
 .action-header {
